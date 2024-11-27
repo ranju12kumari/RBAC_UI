@@ -1,0 +1,83 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Ranju",
+      "password": "admin",
+      "email": "ranjuk.tech@gmail.com",
+      "phone": "9090909090",
+      "country": "usa",
+      "address": "annh",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "gtuser",
+      "name": "Arjun Sharma",
+      "password": "ntuser",
+      "email": "arjun.sharma@email.com",
+      "phone": "6789098765",
+      "country": "singapore",
+      "address": "Blk 123\nStreet 456",
+      "role": "user",
+      "gender": "male"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Aryan",
+      "email": "aryan@in.com"
+    },
+    {
+      "code": 2,
+      "name": "Ananya",
+      "email": "ananya@in.com"
+    },
+    {
+      "code": 3,
+      "name": "Rohan",
+      "email": "rohan@in.com"
+    },
+    {
+      "code": 4,
+      "name": "Diya",
+      "email": "diya@in.com"
+    },
+    {
+      "code": 5,
+      "name": "Ishita",
+      "email": "ishita@in.com"
+    }
+  ]
+}
